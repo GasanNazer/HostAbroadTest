@@ -68,7 +68,7 @@ public class GitHubPage extends PageObject{
 			System.out.println("Can't take a photo. In checkSuccessfulLogin().");
 		}
 		this.repositoriesLabel = this.findByXpath(this.REPOSITORIES_LABEL_XPATH);
-		String res = this.repositoriesLabel.getText();
+		String res = this.repositoriesLabel.getText().substring(0, 12);
 		this.quitDriver();
 		return res;
 	}
