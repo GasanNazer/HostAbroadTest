@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Login as a authenticated user",
+        "description": "",
+        "id": "login-feature-github;login-as-a-authenticated-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6911742800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on GitHub page",
+            "match": {
+              "location": "GitHubSteps.user_is_on_GitHub_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 757597600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigates to Login Page",
+            "match": {
+              "location": "GitHubSteps.user_navigates_to_Login_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1637547000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters username and Password",
+            "match": {
+              "location": "GitHubSteps.user_enters_username_and_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 574192300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user sees their repositories",
+            "match": {
+              "location": "GitHubSteps.user_sees_their_repositories()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature GitHub",
+    "description": "Verify if user is able to Login in to GitHub",
+    "id": "login-feature-github",
+    "keyword": "Feature",
+    "uri": "test.feature"
+  }
+]

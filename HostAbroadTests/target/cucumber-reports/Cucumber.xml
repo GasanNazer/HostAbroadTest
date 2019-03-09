@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="9.88108">
+<testcase classname="Login Feature GitHub" name="Login as a authenticated user" time="9.88108">
+<system-out><![CDATA[Given user is on GitHub page................................................passed
+When user navigates to Login Page...........................................passed
+And user enters username and Password.......................................passed
+Then user sees their repositories...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
