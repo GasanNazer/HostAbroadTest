@@ -46,7 +46,7 @@ public class GitHubPage extends PageObject{
 	
 	public void enterPassword() {
 		this.passwordField = this.findById(this.PASSWORD_FIELD_ID);
-		this.passwordField.sendKeys("TravelerHost@1");
+		this.passwordField.sendKeys("");
 	}
 	
 	public void clickSignIn() {
